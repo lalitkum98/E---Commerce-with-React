@@ -1,0 +1,207 @@
+
+
+.container{
+    display: flex;
+    flex-flow:column nowrap;
+}
+.header {
+    margin-top:-6px;
+    margin-left:-5px;
+    margin-right:-5px;
+    background-color:#F2F3F4;
+}
+
+.menu{
+    margin-top:5px;
+    margin-left:-5px;
+    margin-right:-5px;
+    padding-bottom:5px;
+    display: flex;
+    background-color:#F2F3F4;
+}
+
+.mainarea {
+    margin-top: 5px;
+    margin-left:-5px;
+    margin-right:-5px;
+    background-color:#F8F9F9;
+    display: flex;
+
+}
+.footer{
+    margin-top:5px;
+    margin-left:-5px;
+    margin-right:-5px;
+    display: flex;
+    background-color:#F2F3F4;
+
+}
+.leftArea {
+    float:left;
+    top: 5px;
+    border: solid 1px #CCCCCC;
+    background-color: #F2F3F4;
+    height:650px;
+    width:400px;
+    overflow-y: scroll;
+}
+
+.rightArea {
+    width:700px;
+    float:left;
+    top: 5px;
+    left: 5px;
+    height:540px;
+    background-color:#F8F9F9;
+    overflow-y: scroll;
+}
+
+.mainareainside{
+    height:650px;
+    width:1100px;
+}
+.headerText {
+    margin-top:10px;
+    margin-left:10px;
+    font-family:verdana;
+    font-color:#F8F9F9;
+}
+
+.footerText {
+    margin-top:10px;
+    margin-left:10px;
+    font-family:verdana;
+    font-color:#F8F9F9;
+}
+
+.menucontainer{
+
+    background-color: #F2F3F4;
+    border-width: 2px;
+    width: 1150px;
+    height:50px;
+    float:left;
+}
+
+
+.productListingBox{
+    background-color: #F2F3F4;
+    width: 270px;
+    float:left;
+    margin-left:50px;
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+
+
+.productListingBoxInner{
+
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    margin-right:20px;
+    margin-bottom:10px;
+
+}
+
+.productImage{
+    height: 150px;
+    Width : 150px ;
+    border-style: groove;
+    margin-left: 30px;
+}
+
+.menucontainer button{
+    margin-bottom:15px;
+
+    width:280px;
+    height:54px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+li {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+
+}
+
+/*li :hover {
+    background-color: grey;
+    color: white;
+}*/
+
+input,textarea {
+    margin-left:10px;
+    min-height: 30px;
+    outline: none;
+}
+
+textarea {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    height: 200px;
+    width: 250px;
+}
+
+label {
+
+    display: block;
+    margin-left:10px;
+    margin-top:10px;
+
+}
+span{
+
+
+}
+button {
+    margin-top:10px;
+    width: 150px;
+}
+
+.btn-primary {
+    color: grey;
+
+}
+
+
+.togglable {
+    color: #808080;
+    cursor: pointer;
+}
+
+.togglable-down::after,
+.togglable-up::after {
+    font-size: 8px;
+    margin-left: 0.5em;
+}
+
+.togglable-down::after {
+    content: "▼";
+    display: inline-block;
+}
+
+.togglable-up::after {
+    content: "▶";
+    display: inline-block;
+}
+
+.leftareainside{
+    margin-top:15px;
+    margin-bottom:20px;
+    margin-left:50px;
+}
+.centerButton{
+    margin-left:300px;
+}
+
+.space{
+    margin-left:10px;
+}
